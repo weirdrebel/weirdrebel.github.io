@@ -1,2 +1,2 @@
-# weirdrebel.github.io
+# Cousera-Course
 Coursera Test Repository.
