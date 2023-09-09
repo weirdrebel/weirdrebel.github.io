@@ -1,0 +1,188 @@
+body {
+    font-size: 16px;
+    background-color: #909090;
+    font-family: 'Comic Sans MS', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, Tahoma, Helvetica, Arial, sans-serif;
+}
+
+#header-nav {
+    border-radius: 0;
+    background-color: rgb(183, 220, 235);
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.navbar-brand {
+    padding-top: 15px;
+}
+
+.navbar-brand h1 {
+    /* Restaurant name */
+    top: 15px;
+    color: black;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 0;
+    line-height: .75;
+}
+
+#nav-list {
+    margin: 0;
+    padding: 0;
+    margin-top: 0 !important;
+    border: 1px solid black;
+    border-bottom: 0;
+}
+
+.navbar-brand a:hover,
+.navbar-brand a:focus {
+    text-decoration: none;
+}
+
+#nav-list {
+    margin-top: 10px;
+}
+
+#nav-list a {
+    color: black;
+    text-align: center;
+}
+
+#nav-list a:hover {
+    background: #b8b6b6f8;
+}
+
+.navbar-header button.navbar-toggle,
+.navbar-header .icon-bar {
+    border: 1px solid black;
+}
+
+#nav-list hr {
+    margin: 0;
+    padding: 0;
+    border-top: 1px solid black;
+}
+
+/* Main Content */
+h2 {
+    font-size: 175%;
+    margin: 10px 20px 20px;
+    padding-bottom: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+/* styles.css */
+
+/* Styling for the Really Tall Section */
+#tall-section {
+    background-color: lightyellow;
+    margin: 0 25px 25px 25px;
+}
+
+/* Add CSS for the centered heading */
+.centered-heading {
+    text-align: center;
+    /* Center align the heading */
+    padding: 2px;
+    /* Add padding to separate it from other content */
+    font-size: 150%;
+    /* Adjust the font size as needed */
+    font-weight: bold;
+    /* Optional: Make the heading bold */
+    color: #333;
+    /* Optional: Define the text color */
+}
+
+#tall-section p {
+    padding: 0 10px 10px;
+    margin: 0 8px 8px;
+}
+
+.container {
+    padding: 0;
+    width: 100%;
+}
+
+.container .navbar-header {
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+
+@media (min-width: 1200px) {
+
+    .navbar-brand h1 {
+        left: 50px;
+        position: absolute;
+        /* Adjust the left value as needed */
+    }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199.999px) {
+
+    .navbar-brand h1 {
+        left: 40px;
+        position: absolute;
+        /* Adjust the left value as needed */
+    }
+}
+
+/* CSS for screens between 768px and 991px */
+@media (min-width: 768px) and (max-width: 991px) {
+    .navbar-brand h1 {
+        left: 30px;
+        position: absolute;
+        /* Adjust the left value as needed */
+    }
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+
+    .navbar-brand h1 {
+        /* Restaurant name */
+        font-size: 1.4em;
+    }
+
+    #collapsable-nav a {
+        /* Collapsed nav menu text */
+        font-size: 1.2em;
+    }
+
+    #collapsable-nav a span {
+        /* Collapsed nav menu glyph */
+        font-size: 1em;
+        margin-right: 5px;
+    }
+
+    .navbar-nav {
+        display: block;
+        text-align: center;
+    }
+
+    #tall-section {
+        background-color: lightyellow;
+        margin: 0 20px 20px 20px;
+    }
+
+}
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+
+    /* Header */
+    .navbar-brand h1 {
+        /* Restaurant name */
+        font-size: 1.3em;
+    }
+
+    #tall-section {
+        background-color: lightyellow;
+        margin: 0 15px 15px 15px;
+    }
+
+
+    /* End Header */
+}
