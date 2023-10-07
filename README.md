@@ -10,3 +10,6 @@
 
 - [Module 4 - Solution](https://weirdrebel.github.io/module4-solution/)
   - This is the deployed solution for the assignments in Module 4.
+ 
+- [Module 5 - Solution](https://weirdrebel.github.io/module5-solution/)
+  - This is the deployed solution for the assignments in Module 5.
